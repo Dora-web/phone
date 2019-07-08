@@ -1,0 +1,156 @@
+*{
+	box-sizing: border-box;
+	position: relative;
+	user-select:none;
+}
+html,body{
+	padding:0;
+	margin:0;
+	font-family: 微軟正黑體;
+	width: 100%;
+	height: 100%;
+	background-color:#2f3033;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+
+.flower-l{
+	position: absolute;
+	top:14%;
+	left:33%;
+}
+.flower-l img{
+	width:380px;
+}
+.flower-r{
+	position: absolute;
+	top:36%;
+	left:50%;
+}
+.flower-r img{
+	width:290px;
+}
+.click{
+	position: absolute;
+	top:20%;
+	left:54%; 
+}
+
+.title{
+	color:#ffd1d1;
+	top:30px;
+}
+.phone{
+	border:3px solid #ffd1d1;
+	width:250px; 
+	padding:10px; 
+	border-radius:20px; 
+	background: #fff;
+	transition: 0.5s;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+	left: 0;
+}
+.top{
+	/*border:1px solid #000;*/
+	height: 40px;
+}
+.listen{
+	width:50px;
+	height:6px;
+	border-radius:10px;
+	background:#1e1919;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.camera{
+	height: 6px;
+	width:6px;
+	border-radius: 50%;
+	background:#1e1919;
+	top:50%;
+	left: 20%;
+	transform:translate(9px,-9px);
+}
+.screen{
+	border:1px solid #000;
+	height: 350px;
+	transition:0.5s;
+	overflow: hidden;
+}
+.pages{
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+	font-size: 0;
+	user-select: none;
+	transition: 0.5s;
+}
+.page{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	font-size: initial;
+	overflow: hidden;
+}
+.imgbox-inner{
+	width: 100%;
+	padding-top: 100%;
+	height:100%;
+	position: relative;
+}
+.image{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+}
+.bottom{
+	/*border:1px solid #000;*/
+	height: 60px;
+}
+.iphonebtn{
+	border:1px solid #af9393;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-35%);
+	font-size:30px;
+	color:#af9393;
+	text-align: center;
+	cursor: pointer;
+}
+.iphonebtn:hover{
+	border:2px solid #af9393;
+	background:#e5d7d7;
+}
+.phonename{
+	color: #fff;
+	top:20px;
+}
+.btngroup{
+	display: flex;
+	top:30px;
+}
+.btn{
+	border:1px solid #af9393;
+	border-radius: 6px;
+	background:inherit;
+	color: #fff;
+	padding: 8px;
+	margin-right: 10px;
+	cursor: pointer;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+}
+.btn:hover{
+	color:#2f3033;
+	background:#ffd1d1;
+}
